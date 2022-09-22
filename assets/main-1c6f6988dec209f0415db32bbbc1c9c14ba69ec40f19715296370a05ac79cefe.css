@@ -4590,8 +4590,8 @@ a.bg-danger:focus, a.bg-danger:hover {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.4.0");
-  src: url("assets/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("assets/fonts/font-awesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("assets/fonts/font-awesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("fonts/font-awesome/fontawesome-webfont.eot?v=4.4.0");
+  src: url("fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("fonts/font-awesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("cgifonts/font-awesome/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("fonts/font-awesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("fonts/font-awesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa, .pushme {
@@ -7150,7 +7150,7 @@ a:link code, a:visited code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 cod
 
 .banner {
   background-color: #000;
-  background: url(assets/images/banner.jpg);
+  background: url(cgiimages/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden !important;
