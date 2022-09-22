@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Standard meta -->
+
+
+
+
+
+
+
+<title>Stanford Computational Journalism Lab</title>
+<meta name="description" content="Using computational journalism to uncover accountability stories that would otherwise go untold.
+">
+<link rel="canonical" href="http://cjlab.stanford.edu/">
+<!-- Facebook OpenGraph stuff  https://developers.facebook.com/docs/sharing/best-practices  -->
+<meta property="og:site_name" content="Stanford Computational Journalism Lab"/>
+<meta property="og:title" content="Stanford Computational Journalism Lab" />
+<meta property="og:url" content="http://cjlab.stanford.edu/" />
+<meta property="og:description" content="Using computational journalism to uncover accountability stories that would otherwise go untold.
+" />
+
+<meta property="og:image" content="http://cjlab.stanford.edu/assets/logo.png" />
+
+  <meta name="twitter:card" value="summary" />
+<meta name="twitter:site" value="@StanfordJourn" />
+<meta content="http://cjlab.stanford.edu/" property="twitter:url"/>
+<meta property="twitter:title" content="Stanford Computational Journalism Lab" />
+<meta property="twitter:description" content="Using computational journalism to uncover accountability stories that would otherwise go untold.
+" />
+<meta property="twitter:image" content="http://cjlab.stanford.edu/assets/logo.png" />
+
+  <!-- via https://dev.twitter.com/web/javascript/loading -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+  <link rel="shortcut icon" href="/assets/favicon-e05d71406e2cf3c993f36bb52010f1ad975e53ddc4aad34311e9e5c29be4406d.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/assets/main-1c6f6988dec209f0415db32bbbc1c9c14ba69ec40f19715296370a05ac79cefe.css">
+  <script src="/assets/main-3872ee5d75db2b47623d1351cffb525cab92789405fd1527f3956bdebc32d2a6.js"></script>
+
+main
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-68150677-1', 'auto');
+     ga('send', 'pageview');
+</script>
+
+
+</head>
+<body class="with-header">
+
+  <nav id="header-headroom" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li class="pull-left">
+                <a class="nav-link" id="mast-logo" href="/">
+                    <strong class="monospace">{</strong>
+                    <h1>Stanford Computational Journalism Lab</h1>
+                    <strong class="monospace">}</strong>
+                </a>
+            </li>
+            <li class="pull-right hidden-md-up">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingMainNavBar">
+                &#9776;
+                </button>
+            </li>
+            <div class="pull-right collapse navbar-toggleable-sm" id="collapsingMainNavBar">
+                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="/news">News and Events</a></li>
+<li class="nav-item"><a class="nav-link" href="/initiatives">Our Initiatives</a></li>
+<li class="nav-item"><a class="nav-link" href="/democracys-detectives-jay-hamilton/">Democracy's Detectives</a></li>
+<li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+
+
+
+            </div>
+        </ul>
+    </div>
+</nav>
+<hr>
+<section class="major sec back-tile-white" id="home-note">
+  <div class="animate-intro">
+    <div class="text-center">
+    <p class="banner-statement" style="font-size:35px">
+      Note: The Stanford Computational Journalism Lab operated from 2014 to 2022. 
+      <br>
+      For related current work, see <a href="https://biglocalnews.org/">Stanford's Big Local News</a> project and the <a href="https://jdi.stanford.edu/">Stanford Journalism and Democracy Initiative.</a>   
+        </p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+    <div class="layout-homepage">
+<section class="sec major" id="home-hero">
+    <div class="container">
+        <div class="">
+            <img id="home-logo" class="logo line img-responsive" src="/assets/logo_files/cj-logo-68a4c268f7a6aa9f8e6f514f1095fdc2c61b27e844bd559cedaefb782c1efb22.svg" alt="The Stanford University Computational Journalism Lab">
+        </div>
+        <div class="animate-intro">
+            <p class="banner-statement">
+              Using computational methods to uncover accountability stories that would otherwise go untold.
+            </p>
+
+            <div class="text-center">
+                <a class="pushme" role="button" href="#home-about" data-scroll>&#xf078;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section class="sec hero spread" id="home-about" data-stellar-background-ratio="0.5" style="background-image:url(/files/images/spreads/hoover-stock-4.jpg)"> -->
+<section class="sec hero back-tile-dark" id="home-about">
+    <div class="container">
+        <h2 class="text-center">
+          We focus on:
+        </h2>
+        &nbsp;
+        <p class="secondary-banner-statement">
+          How can we use data and algorithms to lower the costs of discovering stories?
+        </p>
+
+        <p class="secondary-banner-statement">
+           How do we tell stories in more personalized and engaging ways?
+        </p>
+<br>
+        <h2 class="text-center">
+          We are:
+        </h2>
+        &nbsp;
+        <p class="secondary-banner-statement">
+          Journalists, academics, and computer scientists -- all part of the interdisciplinary ecosystem of journalism innovation at Stanford.
+        </p>
+
+    <center><a href="/about" target="_blank" class="btn btn-primary" role="button">Learn more about us</a></center>
+<br>  
+            <div class="text-center">
+                <a class="pushme" role="button" href="#home-features" data-scroll>&#xf078;</a>
+            </div>
+
+
+    </div>
+</section>
+
+
+
+<section class="major sec back-tile-white" id="home-features">
+    <div class="container">
+        <h2 class="text-center">
+          We are working on:
+        </h2>
+&nbsp;
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/initiatives/#courses-section">
+                    <a href="/initiatives/#courses-section"><img class="img-responsive img-rounded" src="/files/images/icons/datajournalismclasses_squareicon.jpg"></a>
+                    <h4>Pioneering a data-focused curriculum</h4>
+                    <p class="description">
+                        We launched new Stanford courses focused on public affairs reporting, computational methods and investigative journalism. We're also exploring immersive storytelling with virtual reality and 360-degree video in a new class.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/projects/big-local-news/">
+                    <a href="/projects/big-local-news/"><img class="img-responsive img-rounded" src="/files/images/icons/BigLocal.png"></a>
+                    <h4>Collecting and archiving local data</h4>
+                    <p class="description">
+                        We go after data sets that are hard to obtain because they’re kept in disparate, scattered locations by multiple jurisdictions. Big Local News collects local data to discover the regional or national patterns that will yield stories with impact.
+                        &nbsp; <br>
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/initiatives#community">
+                    <a href="/initiatives#community"><img class="img-responsive img-rounded" src="/files/images/icons/conferences_squareicon.jpg"></a>
+                    <h4>Building a data journalism community</h4>
+                    <p class="description">
+                        We host Hacks/Hackers meetups at Stanford and hosted <a href="http://journalism.stanford.edu/cj2016" target="_blank">the 2016 Computation + Journalism Symposium</a> at Stanford.
+                        &nbsp; <br>
+                        &nbsp; <br>
+                        &nbsp; <br>
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/projects/law-order-algorithms/">
+                    <a href="/projects/law-order-algorithms/"><img class="img-responsive img-rounded" src="/files/images/photos/laworderalgorithms.jpg"></a>
+                    <h4>Investigating American traffic stop data</h4>
+                    <p class="description">
+                        We are part of the Stanford Open Policing Project, gathering, analyzing, and releasing records from millions of traffic stops by law enforcement agencies across the country.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/projects/vr-public-affairs-immersive-storytelling/">
+                    <a href="/projects/vr-public-affairs-immersive-storytelling/"><img class="img-responsive img-rounded" src="/files/images/photos/NaomiCornman_360Video_CreditJamieStark.jpg"></a>
+                    <h4>Exploring immersive storytelling</h4>
+                    <p class="description">
+                        We are establishing best practices and ideal scenarios for using 360-degree video and virtual reality technology in immersive storytelling.
+                        &nbsp; <br>
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clickable feature" data-href="/initiatives#tutorials-section">
+                    <a href="/initiatives#tutorials-section"><img class="img-responsive img-rounded" src="/files/images/icons/tutorials/search-script-scrape.png"></a>
+                    <h4>Publishing a library of data tutorials</h4>
+                    <p class="description">
+                        We are adding more and more free, online resources to get your feet wet in data analysis and reporting.
+                        &nbsp; <br>
+                        &nbsp; <br>
+                        &nbsp; <br>
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+<br>
+    <center><a href="/initiatives" target="_blank" class="btn btn-primary" role="button">See more initiatives</a></center>
+<br>
+        <div class="text-center">
+            <a class="pushme" role="button" href="#home-dd" data-scroll>&#xf078;</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section class="sec hero spread" id="home-about" data-stellar-background-ratio="0.5" style="background-image:url(/files/images/spreads/hoover-stock-4.jpg)"> -->
+<section class="sec hero back-tile-dark" id="home-dd">
+    <div class="container">
+        <h2 class="text-center">
+          Introducing "Democracy's Detectives":
+        </h2>
+        &nbsp;
+        <p class="secondary-banner-statement">
+          Investigative journalism is underprovided in the market, but new combinations of data and algorithms may make it easier for journalists to discover and tell the stories that hold institutions accountable. 
+        </p>
+
+    <div class="col-md-6">
+    <img src="/files/images/photos/DemocracysDetectives_full.jpg" class="img-responsive">
+    </div>
+    <div class="col-md-6">
+    <h5><a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674545502" target="_blank">DEMOCRACY'S DETECTIVES: The Economics of Investigative Journalism</a></h5>
+    <h5>By James T. Hamilton</h5>
+    <p>Investigative journalism involves original work, about substantive issues, that someone wants to keep secret. 
+    This means it is costly, underprovided in the marketplace, and often opposed. It gets done when a media outlet has the resources to cover the costs, has an incentive to tell a new story, cares about impacts, and overcomes obstacles. 
+    Changes in media markets have put local investigative reporting particularly at risk. But new combinations of data and algorithms may make it easier for journalists to discover and tell the stories that hold institutions accountable.</p>
+    <p>CJ Lab co-founder <a href="/pages/bios">Jay Hamilton</a> writes all about this in his new book, published Fall 2016.</p>
+    </div>
+
+        <center><a href="/democracys-detectives-jay-hamilton/" target="_blank" class="btn btn-primary" role="button">Learn more about the book</a></center>
+<br>
+            <div class="text-center">
+                <a class="pushme" role="button" href="#home-subscribe" data-scroll>&#xf078;</a>
+            </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="sec spread" id="home-subscribe" style="background: url(/files/images/photos/hoover-sky.jpg)">
+    <div class="container">
+        <h2 class="sec-title">Subscribe and get involved</h2>
+
+        <div class="card card-block" style="background: white;">
+  <div class="row">
+      <div class="col-sm-6">
+          <div class="description">
+              <p>We'll keep you updated on the latest events and projects we're working on and how you can get involved.</p>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          
+  <!-- Begin MailChimp Signup Form -->
+
+<div id="mc_embed_signup" class="back-tile-white card card-block">
+<form action="//stanford.us7.list-manage.com/subscribe/post?u=60a5181e3d9c08e1e0f401dc0&amp;id=e4c9354636" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <h5>Subscribe to our mailing list</h5>
+<div class="mc-field-group">
+  <label for="mce-EMAIL">Email Address
+</label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_60a5181e3d9c08e1e0f401dc0_e4c9354636" tabindex="-1" value=""></div>
+    <div class="clear clearfix text-right">
+    <input style="font-size: 0.9rem;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" >
+    </div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+      </div>
+  </div>
+</div>
+
+<br>
+        <center><a href="/contact#Getting_Involved_0" target="_blank" class="btn btn-primary" role="button">Learn more about ways to get involved</a></center>
+    </div>
+</section>
+
+
+</div>
+
+<!-- footer -->
+<footer class="site-footer">
+
+    <section class="sec" style="padding-top: 1.5em; border-top: thin solid #ccc;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <strong>Search</strong> the site:
+                </div>
+                <div class="col-sm-9">
+                    <div class="google-search-box">
+    <script>
+      (function() {
+        var cx = '012541043402465721355:csszj3j0mao';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <ul class="list-inline nav-list">
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="/news">News and Events</a></li>
+<li class="nav-item"><a class="nav-link" href="/initiatives">Our Initiatives</a></li>
+<li class="nav-item"><a class="nav-link" href="/democracys-detectives-jay-hamilton/">Democracy's Detectives</a></li>
+<li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+
+
+
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <div class="row contact-list">
+
+  
+    
+    
+    <div class="col-xs-2">
+      <div class="contact">
+          <a href="/contact#newsletter-section" title="Newsletter">
+            <i class="fa fa-newspaper-o"></i>
+          </a>
+      </div>
+    </div>
+  
+    
+    
+    <div class="col-xs-2">
+      <div class="contact">
+          <a href="https://twitter.com/StanfordJourn" title="Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+      </div>
+    </div>
+  
+    
+    
+    <div class="col-xs-2">
+      <div class="contact">
+          <a href="https://www.facebook.com/StanfordJournalism" title="Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+      </div>
+    </div>
+  
+    
+    
+    <div class="col-xs-2">
+      <div class="contact">
+          <a href="/feed.xml" title="RSS">
+            <i class="fa fa-rss"></i>
+          </a>
+      </div>
+    </div>
+  
+    
+    
+    <div class="col-xs-2">
+      <div class="contact">
+          <a href="mailto:jayth@stanford.edu?Subject=Regarding Stanford CJ Lab" title="Email">
+            <i class="fa fa-envelope"></i>
+          </a>
+      </div>
+    </div>
+  
+</div>
+
+            </div>
+        </div>
+
+                <img class="logo img-responsive" src="/assets/cj-logo-32356cf27a80f6dee6b340b4ab7b73d8c71ff34b15f807a73418ba48a878d25c.png">
+
+        <div class="copyright">
+            © <a href="http://www.stanford.edu/">Stanford University</a>, Stanford, California 94305
+
+        </div>
+    </div>
+</footer>
+
