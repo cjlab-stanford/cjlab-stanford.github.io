@@ -4590,8 +4590,8 @@ a.bg-danger:focus, a.bg-danger:hover {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.4.0");
-  src: url("/assets/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("/assets/fonts/font-awesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("/assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("/assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("/assets/fonts/font-awesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.4.0");
+  src: url("assets/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("assets/fonts/font-awesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("assets/fonts/font-awesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa, .pushme {
@@ -7150,7 +7150,7 @@ a:link code, a:visited code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 cod
 
 .banner {
   background-color: #000;
-  background: url(/assets/images/banner.jpg);
+  background: url(assets/images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden !important;
@@ -7281,16 +7281,16 @@ blockquote {
   padding-bottom: 8rem; }
 
 .back-tile-dark {
-  background-image: url("/files/images/tiles/binding_dark.jpg");
+  background-image: url("files/images/tiles/binding_dark.jpg");
   background-repeat: repeat;
   color: white; }
 
 .back-tile-neutral, #home-hero {
-  background-image: url("/files/images/tiles/brushed_alum.jpg");
+  background-image: url("files/images/tiles/brushed_alum.jpg");
   background-repeat: repeat; }
 
 .back-tile-white, .site-footer, body {
-  background-image: url("/files/images/tiles/brushed_white_alum.jpg");
+  background-image: url("files/images/tiles/brushed_white_alum.jpg");
   background-repeat: repeat; }
 
 body {
