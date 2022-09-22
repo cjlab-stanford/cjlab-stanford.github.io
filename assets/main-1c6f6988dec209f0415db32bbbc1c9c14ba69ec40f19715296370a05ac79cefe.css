@@ -7281,16 +7281,16 @@ blockquote {
   padding-bottom: 8rem; }
 
 .back-tile-dark {
-  background-image: url("files/images/tiles/binding_dark.jpg");
+  background-image: url("../files/images/tiles/binding_dark.jpg");
   background-repeat: repeat;
   color: white; }
 
 .back-tile-neutral, #home-hero {
-  background-image: url("files/images/tiles/brushed_alum.jpg");
+  background-image: url("../files/images/tiles/brushed_alum.jpg");
   background-repeat: repeat; }
 
 .back-tile-white, .site-footer, body {
-  background-image: url("files/images/tiles/brushed_white_alum.jpg");
+  background-image: url("../files/images/tiles/brushed_white_alum.jpg");
   background-repeat: repeat; }
 
 body {
